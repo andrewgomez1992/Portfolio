@@ -1,10 +1,12 @@
 import './intro.scss'
 import React, { useEffect, useRef } from 'react'
+import { useNavigate } from 'react-router-dom'
 // import { init } from 'ityped'
 
 export default function Intro() {
 
     const textRef = useRef();
+    // const navigate = useNavigate()
 
     // useEffect(() => {
     //     console.log(textRef)
@@ -16,6 +18,10 @@ export default function Intro() {
     //         strings: ["Developer", "Designer", "Content Creator"],
     //     })
     // }, [])
+
+    // const linkedIn = () => {
+    //     window.open('linkedIn.com/andrewgomez1992')
+    // }
 
     return (
         <div className="intro" id="intro">
@@ -32,10 +38,15 @@ export default function Intro() {
                         Junior Web Developer <span ref={textRef}></span>
                     </h3>
                 </div>
+                <div className='socialmedia'>
+                    <a href="#" class="fa fa-linkedin"></a>
+                    {/* <a href="#" class="fa fa-github"></a> */}
+                    {/* <a href="#" class="fa fa-instagram"></a> */}
+                </div>
                 <a href="#portfolio">
-                    <img src="assets/down.png" alt="" />
+                    <img class="downarrow" src="assets/down.png" alt="" />
                 </a>
             </div>
-        </div>
+        </div >
     )
 }
