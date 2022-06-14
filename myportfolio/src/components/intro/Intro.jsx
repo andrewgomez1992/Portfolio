@@ -5,6 +5,8 @@ import { useNavigate } from 'react-router-dom'
 
 export default function Intro() {
 
+    const url = 'https://www.linkedin.com/in/andrewgomez1992'
+
     const textRef = useRef();
     // const navigate = useNavigate()
 
@@ -20,7 +22,7 @@ export default function Intro() {
     // }, [])
 
     // const linkedIn = () => {
-    //     window.open('linkedIn.com/andrewgomez1992')
+    //     location.href = 'www.linkedin.com/andrewgomez1992'
     // }
 
     return (
@@ -39,7 +41,7 @@ export default function Intro() {
                     </h3>
                 </div>
                 <div className='socialmedia'>
-                    <a href="#" class="fa fa-linkedin"></a>
+                    <a onClick={() => window.open(url, '_blank')} href="#" class="fa fa-linkedin"></a>
                     {/* <a href="#" class="fa fa-github"></a> */}
                     {/* <a href="#" class="fa fa-instagram"></a> */}
                 </div>
