@@ -7,10 +7,10 @@ export default function Works() {
         {
             id: "1",
             icon: './assets/mobilepic.jpeg',
-            title: 'Web Design',
+            title: 'MyAdmin',
             desc:
                 "Here is some dummy text until I figure out what the fuck to put here.",
-            img: "./assets/sage2.jpeg"
+            img: "./assets/myadminpic.png"
         },
         {
             id: "2",
@@ -18,7 +18,7 @@ export default function Works() {
             title: 'Mobile Application',
             desc:
                 "Here is some dummy text until I figure out what the fuck to put here.",
-            img: "./assets/sage4.png"
+            img: "./assets/myadminpic.png"
         },
         {
             id: "3",
@@ -26,7 +26,7 @@ export default function Works() {
             title: 'Branding',
             desc:
                 "Here is some dummy text until I figure out what the fuck to put here.",
-            img: "./assets/sage3.png"
+            img: "./assets/myadminpic.png"
         },
     ]
 
@@ -39,24 +39,62 @@ export default function Works() {
     return (
         <div className="works" id="works">
             <div className="slider" style={{ transform: `translateX(-${currentSlide * 100}vw)` }}>
-                {data.map((d) => (
-                    <div className="container">
-                        <div className="item">
-                            <div className="left">
-                                <div className="leftContainer">
-                                    <div className="imgContainer">
-                                        <img src={d.icon} alt="" />
-                                    </div>
-                                    <h2>{d.title}</h2>
-                                    <p>{d.desc}</p>
-                                    <span>Projects</span>
+
+                <div className="container">
+                    <div className="item">
+                        <div className="left">
+                            <div className="leftContainer">
+                                <div className="imgContainer">
+                                    <img src="assets/curved.png" alt="" />
                                 </div>
-                            </div>
-                            <div className="right">
-                                <img src="assets/sage1.png" alt="" />
+                                <h2>MyAdmin</h2>
+                                <p>Currently working on building components</p>
+                                {/* <span class="currently">Currently: </span> */}
+                                {/* <span>My Admin</span> */}
                             </div>
                         </div>
-                    </div>))}
+                        <div className="right">
+                            <img src="assets/myadminpic.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div className="container">
+                    <div className="item">
+                        <div className="left">
+                            <div className="leftContainer">
+                                <div className="imgContainer">
+                                    <img src="assets/myadminpic.png" alt="" />
+                                </div>
+                                <h2>AirTravel</h2>
+                                <p>Currently working on adding login and accounts page</p>
+                                {/* <span class="currently">Currently: </span>
+                                <span>Adding Login</span> */}
+                            </div>
+                        </div>
+                        <div className="right">
+                            <img src="assets/airtravelpic.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+                <div className="container">
+                    <div className="item">
+                        <div className="left">
+                            <div className="leftContainer">
+                                <div className="imgContainer">
+                                    <img src="assets/myadminpic.png" alt="" />
+                                </div>
+                                <h2>Noodle</h2>
+                                <p>Currently working on debugging videos page</p>
+                                {/* <span class="currently">Currently: </span>
+                                <span>Debugging</span> */}
+                            </div>
+                        </div>
+                        <div className="right">
+                            <img src="assets/noodlepic.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+
             </div>
             <img src="assets/arrow.png" className="arrow left" alt="" onClick={() => handleClick("left")} />
             <img src="assets/arrow.png" className="arrow right" alt="" onClick={() => handleClick()} />

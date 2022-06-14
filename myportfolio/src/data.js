@@ -1,34 +1,34 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "A beautiful design with firebase on the backend, feel free to make an account :)",
+        title: "flix, a recreation of Netflix",
         img: "assets/Flixpic.png"
     },
     {
         id: 2,
-        title: "Pokemon",
-        img: "assets/sage2.jpeg"
+        title: "airbnb with a cleaner twist",
+        img: "assets/airtravelpic.png"
     },
     {
         id: 3,
-        title: "Jokes",
-        img: "assets/sage3.png"
+        title: "an admin site with more coming soon",
+        img: "assets/myadminpic.png"
     },
     {
         id: 4,
-        title: "E-Commerce Design",
-        img: "assets/sage4.png"
+        title: "simple google re-creation",
+        img: "assets/noodlepic.png"
     },
-    {
-        id: 5,
-        title: "Sam's Baking Page",
-        img: "assets/sage5.png"
-    },
-    {
-        id: 6,
-        title: "Dog Lovers",
-        img: "assets/sage6.jpeg"
-    },
+    // {
+    //     id: 5,
+    //     title: "Sam's Baking Page",
+    //     img: "assets/sage5.png"
+    // },
+    // {
+    //     id: 6,
+    //     title: "Dog Lovers",
+    //     img: "assets/sage6.jpeg"
+    // },
 ]
 export const webPortfolio = [
     {

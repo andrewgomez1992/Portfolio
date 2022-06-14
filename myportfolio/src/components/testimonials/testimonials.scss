@@ -1,11 +1,11 @@
 @import '../../global.scss';
 
 .testimonials {
-    background-color: white;
+    background-color: rgb(53, 53, 53);
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: rgb(56, 56, 56);
+    color: rgb(98, 98, 98);
 
     @include mobile {
         justify-content: space-around;
@@ -26,6 +26,7 @@
         align-items: center;
         justify-content: center;
 
+
         @include mobile {
             flex-direction: column;
             height: 100%;
@@ -41,6 +42,8 @@
             justify-content: space-around;
             padding: 20px;
             transition: all 1s ease;
+            color: white;
+            background-color: rgb(33, 33, 33);
 
             @include mobile {
                 height: 180px;
@@ -86,8 +89,10 @@
                         margin: 0 20px;
 
                         @include mobile {
-                            width: 40px;
-                            height: 40px;
+                            width: 50px;
+                            height: 50px;
+                            position: relative;
+                            right: 10%;
                         }
                     }
                 }
@@ -99,7 +104,7 @@
                 background-color: rgb(162, 179, 162);
 
                 @include mobile {
-                    font-size: 12px;
+                    font-size: 16px;
                     padding: 5px;
                 }
             }

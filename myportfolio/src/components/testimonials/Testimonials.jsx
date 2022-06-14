@@ -11,13 +11,13 @@ export default function Testimonials() {
             img: "assets/arinew.jpeg",
             icon: "mobilepic.jpeg",
             desc:
-                "I've never met a person in my life with a better dick, not only is it big but he knows how to use it"
+                "I've never met a person in my life like Drew, he is the type that genuinely cares about everyone."
         },
         {
             id: 2,
             name: "James Reeves",
-            title: "Senior Intelligence Developer",
-            img: "assets/arinew.jpeg",
+            title: "Senior Intelligence Developer @Tinder",
+            img: "assets/james1.png",
             icon: "mobilepic.jpeg",
             desc:
                 "This is the guy you want working on your project, trust me",
@@ -27,7 +27,7 @@ export default function Testimonials() {
             id: 3,
             name: "Jonathan Reeves",
             title: "Senior Dev Ops Engineer",
-            img: "assets/arinew.jpeg",
+            img: "assets/jon.png",
             icon: "mobilepic.jpeg",
             desc:
                 "Time and time again I've been impressed, you found you're guy"
