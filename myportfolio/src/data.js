@@ -1,8 +1,8 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "Crazy new project",
-        img: "assets/sage1.png"
+        title: "A beautiful design with firebase on the backend, feel free to make an account :)",
+        img: "assets/Flixpic.png"
     },
     {
         id: 2,

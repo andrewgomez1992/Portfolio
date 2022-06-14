@@ -60,6 +60,7 @@ export default function Works() {
             </div>
             <img src="assets/arrow.png" className="arrow left" alt="" onClick={() => handleClick("left")} />
             <img src="assets/arrow.png" className="arrow right" alt="" onClick={() => handleClick()} />
+            <h1 class='intheworks'>In the works...</h1>
         </div>
     )
 }

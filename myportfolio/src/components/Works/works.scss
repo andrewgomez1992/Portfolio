@@ -1,11 +1,18 @@
 @import '../../global.scss';
 
 .works {
-    background-color: rgb(201, 228, 215);
+    background-color: rgb(53, 53, 53);
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
+    color: black;
+
+    .intheworks {
+        color: rgb(145, 145, 145);
+        position: relative;
+        top: -40%;
+    }
 
     .arrow {
         height: 50px;
@@ -48,7 +55,7 @@
             .item {
                 width: 700px;
                 height: 100%;
-                background-color: white;
+                background-color: rgb(135, 135, 135);
                 border-radius: 20px;
                 display: flex;
                 align-items: center;

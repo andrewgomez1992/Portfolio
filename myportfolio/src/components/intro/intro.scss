@@ -1,9 +1,9 @@
 @import '../../global.scss';
 
 .intro {
-    background-color: white;
+    background-color: rgb(53, 53, 53);
     display: flex;
-    color: rgb(56, 56, 56);
+    color: rgb(255, 255, 255);
 
     @include mobile {
         flex-direction: column;
