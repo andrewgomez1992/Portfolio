@@ -18,7 +18,7 @@ export default function Testimonials() {
         {
             id: 2,
             name: "James Reeves",
-            title: "Senior Intelligence Developer @Tinder",
+            title: "Software Engineer @Tinder",
             img: "assets/james1.png",
             icon: "mobilepic.jpeg",
             desc:
@@ -28,7 +28,7 @@ export default function Testimonials() {
         {
             id: 3,
             name: "Jonathan Reeves",
-            title: "Senior Dev Ops Engineer",
+            title: "Senior Software Engineer",
             img: "assets/jon.png",
             icon: "mobilepic.jpeg",
             desc:
