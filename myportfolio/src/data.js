@@ -1,22 +1,22 @@
 export const featuredPortfolio = [
     {
         id: 1,
-        title: "flix, a recreation of Netflix",
+        title: "Flix. React, Tailwind, and Firebase.",
         img: "assets/Flixpic.png"
     },
     {
         id: 2,
-        title: "airbnb with a cleaner twist",
+        title: "AirTravel, and updated version of airbnb. Still in the works but I'll link it soon. HTML and CSS",
         img: "assets/airtravelpic.png"
     },
     {
         id: 3,
-        title: "an admin site with more coming soon",
+        title: "MyAdmin, an elegent, user friendly app to help track all of your business needs. Also still in the works. JSX and SASS",
         img: "assets/myadminpic.png"
     },
     {
         id: 4,
-        title: "simple google re-creation",
+        title: "Noodle, a simple google re-creation. Currently debugging the videos page. JSX and Tailwind CSS",
         img: "assets/noodlepic.png"
     },
     // {

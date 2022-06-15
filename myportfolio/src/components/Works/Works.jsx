@@ -44,11 +44,11 @@ export default function Works() {
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
-                                <div className="imgContainer">
+                                {/* <div className="imgContainer">
                                     <img src="assets/curved.png" alt="" />
-                                </div>
+                                </div> */}
                                 <h2>MyAdmin</h2>
-                                <p>Currently working on building components</p>
+                                <p>Currently working on building products page</p>
                                 {/* <span class="currently">Currently: </span> */}
                                 {/* <span>My Admin</span> */}
                             </div>
@@ -62,9 +62,9 @@ export default function Works() {
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
-                                <div className="imgContainer">
+                                {/* <div className="imgContainer">
                                     <img src="assets/myadminpic.png" alt="" />
-                                </div>
+                                </div> */}
                                 <h2>AirTravel</h2>
                                 <p>Currently working on adding login and accounts page</p>
                                 {/* <span class="currently">Currently: </span>
@@ -80,9 +80,9 @@ export default function Works() {
                     <div className="item">
                         <div className="left">
                             <div className="leftContainer">
-                                <div className="imgContainer">
+                                {/* <div className="imgContainer">
                                     <img src="assets/myadminpic.png" alt="" />
-                                </div>
+                                </div> */}
                                 <h2>Noodle</h2>
                                 <p>Currently working on debugging videos page</p>
                                 {/* <span class="currently">Currently: </span>

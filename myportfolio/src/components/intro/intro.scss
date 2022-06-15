@@ -6,6 +6,8 @@
     display: flex;
     color: rgb(255, 255, 255);
 
+
+
     .fa-github {
         padding: 10px;
         font-size: 30px;
@@ -166,12 +168,12 @@
     .left {
         flex: 0.5;
         overflow: hidden;
-        box-shadow: rgb(133, 133, 133) 0px 1px 4px, rgb(131, 131, 131) 0px 0px 0px 3px;
+        // box-shadow: rgb(133, 133, 133) 0px 1px 4px, rgb(131, 131, 131) 0px 0px 0px 3px;
 
 
         .imgContainer {
-            width: 700px;
-            height: 700px;
+            width: 650px;
+            height: 640px;
             background-color: #a6c9a8;
             border-radius: 50%;
             display: flex;
@@ -180,18 +182,21 @@
             float: right;
             overflow: hidden;
             box-shadow: rgb(133, 133, 133) 0px 1px 4px, rgb(131, 131, 131) 0px 0px 0px 3px;
+            position: relative;
+            left: -1%;
+            top: 7%;
 
 
             @include mobile {
                 position: relative;
                 top: 1%;
+                left: 0;
             }
 
             img {
                 display: flex;
                 position: relative;
                 left: 5%;
-                box-shadow: rgb(255, 255, 255) 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
 
                 @include mobile {
                     height: 90%;

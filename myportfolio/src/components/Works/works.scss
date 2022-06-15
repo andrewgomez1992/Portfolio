@@ -8,6 +8,7 @@
     position: relative;
     color: black;
     height: 100%;
+    overflow: hidden;
 
     .intheworks {
         color: $mainColor;
@@ -16,7 +17,7 @@
 
         @include mobile {
             position: relative;
-            top: -46%;
+            top: -40%;
             font-size: 1.5rem;
         }
     }
@@ -60,20 +61,21 @@
             justify-content: center;
 
             .item {
-                width: 700px;
+                width: 800px;
                 height: 100%;
                 background-color: rgb(33, 33, 33);
-                border-radius: 20px;
+                border-radius: 10px;
                 display: flex;
                 align-items: center;
                 justify-content: center;
+                box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 
                 @include mobile {
-                    width: 80%;
-                    height: 200px;
-                    margin: 15px 0;
+                    width: 65%;
+                    height: 150px;
+                    margin: 12px 0;
                     position: relative;
-
+                    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
                 }
 
                 .left {
@@ -89,6 +91,7 @@
                         display: flex;
                         flex-direction: column;
                         justify-content: space-between;
+                        font-size: 2rem;
 
                         @include mobile {
                             width: 100%;
@@ -115,12 +118,13 @@
 
                                 @include mobile {
                                     width: 15px;
+
                                 }
                             }
                         }
 
                         h2 {
-                            font-size: 20px;
+                            font-size: 30px;
                             color: $mainColor;
 
                             @include mobile {
@@ -129,11 +133,12 @@
                         }
 
                         p {
-                            font-size: 13px;
+                            font-size: 20px;
                             color: rgb(254, 249, 249);
 
                             @include mobile {
-                                font-size: 15px;
+                                font-size: 12px;
+                                overflow: hidden;
                             }
                         }
 

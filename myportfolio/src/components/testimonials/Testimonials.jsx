@@ -22,7 +22,7 @@ export default function Testimonials() {
             img: "assets/james1.png",
             icon: "mobilepic.jpeg",
             desc:
-                "This is the guy you want working on your project, trust me",
+                "Nobody has drive like Drew. I fully endorse his coding skills and I know he is going to do amazing in the tech world.",
             featured: true,
         },
         {
@@ -32,7 +32,7 @@ export default function Testimonials() {
             img: "assets/jon.png",
             icon: "mobilepic.jpeg",
             desc:
-                "Time and time again I've been impressed, you found you're guy"
+                "Time and time again I've been impressed, you found you're guy if you're looking for a developer."
         },
     ]
     return (
@@ -47,7 +47,6 @@ export default function Testimonials() {
                                 alt=""
                             />
                             <img src={d.img} className="user" />
-                            <img src={d.icon} className="right" alt="" />
                         </div>
                         <div className="center">
                             {d.desc}

@@ -21,9 +21,10 @@
         color: rgb(53, 53, 53);
 
         @include mobile {
-            position: absolute;
-            left: -5%;
-            height: 60%;
+            position: relative;
+            top: 15%;
+            left: 11%;
+            height: 85%;
         }
     }
 
@@ -33,6 +34,11 @@
         flex-direction: column;
         align-items: center;
         justify-content: center;
+
+        @include mobile {
+            position: relative;
+            top: -5%;
+        }
 
         h2 {
             font-size: 30px;
@@ -55,7 +61,7 @@
                     width: 200px;
                     height: 20px;
                     border-radius: 5px;
-                    border: 2px solid black
+                    border: 2px solid black;
                 }
             }
 
