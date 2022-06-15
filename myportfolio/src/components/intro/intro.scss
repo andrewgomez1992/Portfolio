@@ -6,6 +6,77 @@
     display: flex;
     color: rgb(255, 255, 255);
 
+    .fa-github {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        // text-decoration: none;
+        border-radius: 50%;
+        color: rgb(86, 86, 86);
+        position: relative;
+        top: 4%;
+        justify-self: start;
+        background-color: $mainColor;
+        cursor: pointer;
+        box-shadow: $mainColor 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
+
+    .fa-linkedin {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        // text-decoration: none;
+        border-radius: 50%;
+        color: rgb(86, 86, 86);
+        left: 10%;
+        top: 4%;
+        background-color: $mainColor;
+        cursor: pointer;
+        box-shadow: $mainColor 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
+
+    .socialmedia .fa-linkedin {
+        position: absolute;
+        left: 10%;
+    }
+
+    .fa-instagram {
+        padding: 10px;
+        font-size: 30px;
+        width: 30px;
+        height: 30px;
+        text-align: center;
+        // text-decoration: none;
+        border-radius: 50%;
+        color: rgb(86, 86, 86);
+        // left: 10%;
+        top: 4%;
+        background-color: $mainColor;
+        cursor: pointer;
+        // box-shadow: $mainColor 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;
+    }
+
+    .socialmedia .fa-instagram {
+        position: absolute;
+        left: 70%;
+    }
+
+    .socialmedia .fa-instagram:hover {
+        transform: scale(1.1);
+    }
+
+    .socialmedia .fa-github:hover {
+        transform: scale(1.1);
+    }
+
+    .socialmedia .fa-linkedin:hover {
+        transform: scale(1.1);
+    }
+
     @include mobile {
         flex-direction: column;
         align-items: center;
