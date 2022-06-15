@@ -61,6 +61,8 @@ export default function Portfolio() {
 
     }, [selected])
 
+    const flixURL = "https://netflix-react-js-tailwind.web.app/"
+
     return (
         <div className="portfolio" id="portfolio">
             <h1>My Portfolio</h1>
@@ -79,14 +81,22 @@ export default function Portfolio() {
                     ))} */}
             </ul>
             <div className='container'>
-                {
-                    data.map((d) => (
-
-                        <div className="item">
-                            <img src={d.img} alt="" />
-                            <h3>{d.title}</h3>
-                        </div>
-                    ))}
+                <div onClick={() => window.open(flixURL, '_blank')} className="item">
+                    <img src="assets/Flixpic.png" alt="" />
+                    <h3>Flix. React, Tailwind, and Firebase.</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/airtravelpic.png" alt="" />
+                    <h3>"AirTravel, and updated version of airbnb. Still in the works. HTML and CSS"</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/myadminpic.png" alt="" />
+                    <h3>"MyAdmin, a user friendly app to help track all of your business needs. Also still in the works. JSX and SASS"</h3>
+                </div>
+                <div className="item">
+                    <img src="assets/noodlepic.png" alt="" />
+                    <h3>"Noodle, a simple google re-creation. Currently debugging the videos page. JSX and Tailwind CSS"</h3>
+                </div>
             </div>
         </div>
     )
