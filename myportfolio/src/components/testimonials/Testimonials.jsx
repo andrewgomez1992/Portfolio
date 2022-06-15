@@ -3,6 +3,7 @@ import React from 'react'
 
 export default function Testimonials() {
 
+    const jonLinkedInURL = "https://www.linkedin.com/in/jonathan-reeves/"
 
 
     const data = [
