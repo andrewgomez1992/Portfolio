@@ -70,6 +70,7 @@
                 align-items: center;
                 justify-content: center;
                 box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+                cursor: pointer;
 
                 @include mobile {
                     width: 65%;
@@ -164,6 +165,10 @@
                         width: 425px;
                         transform: rotate(-10deg);
                         border-radius: 25px;
+                    }
+
+                    img:hover {
+                        transform: scale(1.2);
                     }
                 }
             }
