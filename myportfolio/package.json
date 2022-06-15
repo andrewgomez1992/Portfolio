@@ -1,6 +1,10 @@
 {
   "name": "myportfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
+  },
   "private": true,
   "homepage": "https://andrewgomez1992.github.io",
   "dependencies": {
