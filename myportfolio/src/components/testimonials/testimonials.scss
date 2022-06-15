@@ -99,8 +99,8 @@
                         margin: 0 20px;
 
                         @include mobile {
-                            width: 40px;
-                            height: 40px;
+                            width: 30px;
+                            height: 30px;
                             position: relative;
                             right: 10%;
                             top: -10%;
@@ -116,7 +116,7 @@
 
                 @include mobile {
                     font-size: 12px;
-                    padding: 5px;
+                    padding: 2%;
                 }
             }
 
