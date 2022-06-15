@@ -95,7 +95,7 @@ export default function Portfolio() {
                 </div>
                 <div className="item">
                     <img src="assets/noodlepic.png" alt="" />
-                    <h3>"Noodle, a simple google re-creation. Currently debugging the videos page. JSX and Tailwind CSS"</h3>
+                    <h3>"Noodle, a simple google re-creation. JSX and Tailwind CSS"</h3>
                 </div>
             </div>
         </div>
