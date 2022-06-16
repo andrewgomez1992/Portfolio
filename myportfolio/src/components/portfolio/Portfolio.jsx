@@ -87,15 +87,15 @@ export default function Portfolio() {
                 </div>
                 <div className="item">
                     <img src="assets/airtravelpic.png" alt="" />
-                    <h3>"AirTravel, and updated version of airbnb. Still in the works. HTML and CSS"</h3>
+                    <h3>AirTravel, and updated version of airbnb. Still in the works. HTML and CSS</h3>
                 </div>
                 <div className="item">
                     <img src="assets/myadminpic.png" alt="" />
-                    <h3>"MyAdmin, a user friendly app to help track all of your business needs. Also still in the works. JSX and SASS"</h3>
+                    <h3>MyAdmin, a user friendly app to help track all of your business needs. Also still in the works. JSX and SASS</h3>
                 </div>
                 <div className="item">
                     <img src="assets/noodlepic.png" alt="" />
-                    <h3>"Noodle, a simple google re-creation. JSX and Tailwind CSS"</h3>
+                    <h3>Noodle, a simple google re-creation. JSX and Tailwind CSS</h3>
                 </div>
             </div>
         </div>
