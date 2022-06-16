@@ -62,6 +62,9 @@ export default function Portfolio() {
     }, [selected])
 
     const flixURL = "https://netflix-react-js-tailwind.web.app/"
+    const airTravelURL = "https://airtravel-indol.vercel.app/#top"
+    const myAdminURL = "https://myadmin-nine.vercel.app/"
+    const noodleURL = "https://noodle-eta.vercel.app/"
 
     return (
         <div className="portfolio" id="portfolio">
@@ -87,15 +90,15 @@ export default function Portfolio() {
                     <img src="assets/Flixpic.png" alt="" />
                     <h3>Flix. React, Tailwind, and Firebase.</h3>
                 </div>
-                <div className="item">
+                <div onClick={() => window.open(airTravelURL, '_blank')} className="item">
                     <img src="assets/airtravelpic.png" alt="" />
                     <h3>AirTravel, and updated version of airbnb. Still in the works. HTML and CSS</h3>
                 </div>
-                <div className="item">
+                <div onClick={() => window.open(myAdminURL, '_blank')} className="item">
                     <img src="assets/myadminpic.png" alt="" />
                     <h3>MyAdmin, a user friendly app to help track all of your business needs. Also still in the works. JSX and SASS</h3>
                 </div>
-                <div className="item">
+                <div onClick={() => window.open(noodleURL, '_blank')} className="item">
                     <img src="assets/noodlepic.png" alt="" />
                     <h3>Noodle, a simple google re-creation. JSX and Tailwind CSS</h3>
                 </div>

@@ -84,7 +84,7 @@ export default function Works() {
                                     <img src="assets/myadminpic.png" alt="" />
                                 </div> */}
                                 <h2>Noodle</h2>
-                                <p>Currently working on debugging videos page</p>
+                                <p>Currently working on debugging images and videos page</p>
                                 {/* <span class="currently">Currently: </span>
                                 <span>Debugging</span> */}
                             </div>
