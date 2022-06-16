@@ -36,6 +36,10 @@ export default function Testimonials() {
                 "Time and time again I've been impressed, you found you're guy if you're looking for a developer."
         },
     ]
+
+    const jonsURL = "https://www.linkedin.com/in/jonathan-reeves/"
+    const jamesURL = "https://www.linkedin.com/in/james-reeves-a24514b6/"
+
     return (
         <div className='testimonials' id="testimonials">
             <h1>Testimonials</h1>
@@ -63,7 +67,7 @@ export default function Testimonials() {
                             className='left'
                             alt=""
                         />
-                        <img src="assets/james1.png" className="user" />
+                        <img onClick={() => window.open(jamesURL, '_blank')} src="assets/james1.png" className="user" />
                     </div>
                     <div className="center">
                         "Nobody has drive like Drew. I fully endorse his coding skills and I know he is going to do amazing in the tech world."
@@ -79,7 +83,7 @@ export default function Testimonials() {
                             className='left'
                             alt=""
                         />
-                        <img src="assets/jon.png" className="user" />
+                        <img onClick={() => window.open(jonsURL, '_blank')} src="assets/jon.png" className="user" />
                     </div>
                     <div className="center">
                         "Time and time again I've been impressed, you found you're guy if you're looking for a developer."
