@@ -1,7 +1,7 @@
 import './intro.scss'
 import React, { useState, useEffect } from "react";
 
-const words = ["Developer", "Designer", "Content Creator", "Problem Solver"];
+const words = ["Full Stack Developer"]; // SET UP FOR MULTIPLE STRINGS!!
 
 export default function Intro() {
 
