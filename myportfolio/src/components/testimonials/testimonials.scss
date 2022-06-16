@@ -49,6 +49,7 @@
             flex-direction: column;
             justify-content: space-around;
             padding: 20px;
+            margin: 2%;
             transition: all 1s ease;
             color: white;
             background-color: rgb(33, 33, 33);
@@ -79,7 +80,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                cursor: pointer;
+                overflow: hidden;
 
                 img {
 
@@ -100,6 +101,11 @@
                         border-radius: 50%;
                         object-fit: cover;
                         margin: 0 20px;
+                        cursor: pointer;
+
+                        &.user:hover {
+                            transform: scale(1.1);
+                        }
 
                         @include mobile {
                             width: 30px;
@@ -116,6 +122,7 @@
                 padding: 10px;
                 border-radius: 10px;
                 background-color: rgb(162, 179, 162);
+                overflow: hidden;
 
                 @include mobile {
                     font-size: 12px;

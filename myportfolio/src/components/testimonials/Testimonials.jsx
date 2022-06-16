@@ -40,23 +40,55 @@ export default function Testimonials() {
         <div className='testimonials' id="testimonials">
             <h1>Testimonials</h1>
             <div className="container">
-                {data.map(d => (
-                    <div className={d.featured ? "card featured" : "card"}>
-                        <div className="top">
-                            <img src="assets/curved.png"
-                                className='left'
-                                alt=""
-                            />
-                            <img src={d.img} className="user" />
-                        </div>
-                        <div className="center">
-                            {d.desc}
-                        </div>
-                        <div className="bottom">
-                            <h3>{d.name}</h3>
-                            <h4>{d.title}</h4>
-                        </div>
-                    </div>))}
+                {/** "card featured" */}
+                <div className="card">
+                    <div className="top">
+                        <img src="assets/curved.png"
+                            className='left'
+                            alt=""
+                        />
+                        <img src="assets/arinew.jpeg" className="user" />
+                    </div>
+                    <div className="center">
+                        "I've never met a person in my life like Drew, he is the type that genuinely cares about everyone."
+                    </div>
+                    <div className="bottom">
+                        <h3>Ari Caluro</h3>
+                        <h4>Teacher</h4>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="top">
+                        <img src="assets/curved.png"
+                            className='left'
+                            alt=""
+                        />
+                        <img src="assets/james1.png" className="user" />
+                    </div>
+                    <div className="center">
+                        "Nobody has drive like Drew. I fully endorse his coding skills and I know he is going to do amazing in the tech world."
+                    </div>
+                    <div className="bottom">
+                        <h3>James Reeves</h3>
+                        <h4>Software Engineer @Tinder</h4>
+                    </div>
+                </div>
+                <div className="card">
+                    <div className="top">
+                        <img src="assets/curved.png"
+                            className='left'
+                            alt=""
+                        />
+                        <img src="assets/jon.png" className="user" />
+                    </div>
+                    <div className="center">
+                        "Time and time again I've been impressed, you found you're guy if you're looking for a developer."
+                    </div>
+                    <div className="bottom">
+                        <h3>Jonathan Reeves</h3>
+                        <h4>Senior Software Engineer</h4>
+                    </div>
+                </div>
             </div>
         </div>
     )
