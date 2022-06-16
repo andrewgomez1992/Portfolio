@@ -1,31 +1,55 @@
 import './intro.scss'
-import React, { useEffect, useRef } from 'react'
-import { useNavigate } from 'react-router-dom'
-// import { init } from 'ityped'
+import React, { useState, useEffect } from "react";
+
+const words = ["Developer", "Designer", "Content Creator", "Problem Solver"];
 
 export default function Intro() {
+
+    const [index, setIndex] = useState(0);
+    const [subIndex, setSubIndex] = useState(0);
+    const [blink, setBlink] = useState(true);
+    const [reverse, setReverse] = useState(false);
 
     const linkedInURL = 'https://www.linkedin.com/in/andrewgomez1992'
     const instagramURL = 'https://www.instagram.com/_drewgomez_/'
     const githubURL = 'https://github.com/andrewgomez1992'
 
-    const textRef = useRef();
-    // const navigate = useNavigate()
+    // typeWriter
+    useEffect(() => {
+        if (index === words.length - 1 && subIndex === words[index].length) {
+            return;
+        }
 
-    // useEffect(() => {
-    //     console.log(textRef)
-    //     init(textRef.current, {
-    //         showCursor: true,
-    //         backDelay: 1500,
-    //         backSpeed: 60,
-    //         showCursor: true,
-    //         strings: ["Developer", "Designer", "Content Creator"],
-    //     })
-    // }, [])
+        if (
+            subIndex === words[index].length + 1 &&
+            index !== words.length - 1 &&
+            !reverse
+        ) {
+            setReverse(true);
+            return;
+        }
 
-    // const linkedIn = () => {
-    //     location.href = 'www.linkedin.com/andrewgomez1992'
-    // }
+        if (subIndex === 0 && reverse) {
+            setReverse(false);
+            setIndex((prev) => prev + 1);
+            return;
+        }
+
+        const timeout = setTimeout(() => {
+            setSubIndex((prev) => prev + (reverse ? -1 : 1));
+        }, Math.max(reverse ? 75 : subIndex === words[index].length ? 1000 :
+            150, parseInt(Math.random() * 250)));
+
+        return () => clearTimeout(timeout);
+    }, [subIndex, index, reverse]);
+
+    // blinker
+    useEffect(() => {
+        const timeout2 = setTimeout(() => {
+            setBlink((prev) => !prev);
+        }, 700);
+        return () => clearTimeout(timeout2);
+    }, [blink]);
 
     return (
         <div className="intro" id="intro">
@@ -36,10 +60,10 @@ export default function Intro() {
             </div>
             <div className="right">
                 <div className="wrapper">
-                    <h2>Hi There, I'm</h2>
+                    <h2>Hi there, I'm</h2>
                     <h1>Drew Gomez</h1>
                     <h3>
-                        Full Stack Developer <span ref={textRef}></span>
+                        {`${words[index].substring(0, subIndex)}${blink ? "|" : ""}`}
                     </h3>
                 </div>
                 <div className='socialmedia'>
