@@ -12,7 +12,7 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 
                     </div>
                     <div className="itemContainer">
-                        <Mail className="icon" />
+                        <a href=" mailto:drewgomez209@gmail.com"><Mail className="icon" /></a>
                         <span><a href="mailto:drewgomez209@gmail.com">drewgomez209@gmail.com</a></span>
                     </div>
                 </div>
@@ -25,6 +25,6 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
                     </div>
                 </div>
             </div>
-        </div>
+        </div >
     )
 }

@@ -36,7 +36,7 @@
             margin-left: 30px;
 
             @include mobile {
-                display: none;
+                margin-left: 0px;
             }
 
             a {
@@ -49,6 +49,12 @@
             span {
                 font-size: 15px;
                 font-weight: 500;
+
+                @include mobile {
+                    display: none;
+                    position: relative;
+                    width: 10%;
+                }
             }
         }
     }
