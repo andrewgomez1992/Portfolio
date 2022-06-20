@@ -39,9 +39,11 @@
                 display: none;
             }
 
-            .icon {
+            a {
+                color: $mainColor;
                 font-size: 18px;
                 margin-right: 5px;
+                text-decoration: none;
             }
 
             span {
