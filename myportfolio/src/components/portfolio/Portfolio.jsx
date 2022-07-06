@@ -61,10 +61,11 @@ export default function Portfolio() {
 
     }, [selected])
 
-    const flixURL = "https://netflix-react-js-tailwind.web.app/"
+    const flixURL = "https://flix-react-js-tailwind.vercel.app/"
     const airTravelURL = "https://airtravel-indol.vercel.app/#top"
     const myAdminURL = "https://myadmin-nine.vercel.app/"
     const noodleURL = "https://noodle-eta.vercel.app/"
+    const devSpaceURL = "https://dev-space-nine.vercel.app/"
 
     return (
         <div className="portfolio" id="portfolio">
@@ -86,6 +87,10 @@ export default function Portfolio() {
                     ))} */}
             </ul>
             <div className='container'>
+                <div onClick={() => window.open(devSpaceURL, '_blank')} className="item">
+                    <img src="assets/devSpacepic.png" alt="" />
+                    <h3>devSpace. HTML, CSS, JS :).</h3>
+                </div>
                 <div onClick={() => window.open(flixURL, '_blank')} className="item">
                     <img src="assets/Flixpic.png" alt="" />
                     <h3>Flix. React, Tailwind, and Firebase.</h3>

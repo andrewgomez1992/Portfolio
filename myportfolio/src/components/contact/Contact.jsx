@@ -1,28 +1,19 @@
 import './contact.scss'
-import React, { useState } from 'react'
+import React from "react";
 
-export default function Contact() {
-    const [message, setMessage] = useState(false)
+export default function Intro() {
 
-    const handleSubmit = (e) => {
-        e.preventDefault();
-        setMessage(true)
-    }
     return (
-        <div className='contact' id="contact">
-            <div className="left">
-                <img src="assets/shaking.png" alt="" />
+        <div className="aboutintro" id="intro">
+            <div className="aboutleft">
+                <div className="aboutimg">
+                    <img src="assets/IMG_1988.jpg" alt="" />
+                </div>
             </div>
-            <div className="right">
-                <h2>Contact.</h2>
-                <form onSubmit={handleSubmit}>
-                    <input type="text" placeholder='Email' />
-                    <textarea placeholder='Message'></textarea>
-                    <button type='submit'>Send</button>
-                    {message && <span>Thanks, I'll reply ASAP :)</span>}
-                </form>
-
+            <div className='aboutme'>
+                <h1>A little more about myself...</h1>
+                <p>I grew up in Modesto CA. </p>
             </div>
-        </div>
+        </div >
     )
 }
