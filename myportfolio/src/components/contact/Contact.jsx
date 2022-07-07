@@ -11,8 +11,8 @@ export default function Intro() {
                 </div>
             </div>
             <div className='aboutme'>
-                <h1>A little more about myself...</h1>
-                <p>I grew up in Modesto CA. </p>
+                {/* <h1>A little more about myself...</h1> */}
+                <p>If you want to lift yourself up,<br /> lift up someone else.</p>
             </div>
         </div >
     )

@@ -4,7 +4,7 @@
 .intro {
     background-color: rgb(37, 37, 37);
     display: flex;
-    color: rgb(255, 255, 255);
+    color: #636363;
 
     // Background Start
 
@@ -32,7 +32,7 @@
 
         @keyframes anim-glow {
             0% {
-                box-shadow: 0 0 rgba(#6fae76, 1);
+                box-shadow: 0 0 rgba(#e9e633, 1);
             }
 
             100% {
@@ -94,7 +94,7 @@
 
         @keyframes anim-glow {
             0% {
-                box-shadow: 0 0 rgba(#6fae76, 1);
+                box-shadow: 0 0 rgba(#e9e633, 1);
             }
 
             100% {
@@ -227,16 +227,16 @@
             justify-content: center;
             float: right;
             overflow: hidden;
-            box-shadow: #696969 0px 1px 4px, #696969 0px 0px 0px 3px;
+            filter: drop-shadow(0 0 8px #ffe600);
             position: relative;
-            left: -1%;
+            left: -2%;
             top: 7%;
 
 
 
             @include mobile {
                 position: relative;
-                top: 1%;
+                top: 4%;
                 left: 0;
             }
 
@@ -278,7 +278,7 @@
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
-                color: #a6c9a8;
+                color: #e9e633;
 
 
                 @include mobile {
