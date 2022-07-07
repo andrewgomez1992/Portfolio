@@ -88,7 +88,7 @@ export default function Portfolio() {
             </ul>
             <div className='container'>
                 <div onClick={() => window.open(devSpaceURL, '_blank')} className="item">
-                    <img src="assets/devSpace.png" alt="" />
+                    <img src="assets/devspace.png" alt="" />
                     <h3>devSpace. HTML, CSS, JS :).</h3>
                 </div>
                 <div onClick={() => window.open(flixURL, '_blank')} className="item">
