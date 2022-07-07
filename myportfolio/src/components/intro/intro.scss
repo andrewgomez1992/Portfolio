@@ -156,7 +156,6 @@
             width: 30px;
             height: 30px;
             text-align: center;
-            // text-decoration: none;
             border-radius: 50%;
             color: rgb(86, 86, 86);
             left: 10%;
@@ -238,12 +237,15 @@
                 position: relative;
                 top: 4%;
                 left: 0;
+                background-color: rgb(37, 37, 37);
+                filter: none;
             }
 
             img {
                 display: flex;
                 position: relative;
                 left: 5%;
+                filter: drop-shadow(0 0 8px #ffe600);
 
                 @include mobile {
                     height: 90%;

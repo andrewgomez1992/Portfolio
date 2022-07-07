@@ -4,7 +4,7 @@ import React from "react";
 export default function Intro() {
 
     return (
-        <div className="aboutintro" id="intro">
+        <div className="aboutintro" id="contact">
             <div className="aboutleft">
                 <div className="aboutimg">
                     <img src="assets/IMG_1988.jpg" alt="" />
