@@ -17,6 +17,7 @@
         color: $mainColor;
         padding: 2%;
 
+
         @include mobile {
             font-size: 30px;
             color: $mainColor;
@@ -26,9 +27,10 @@
     }
 
     p {
+        border-top: 10px solid $mainColor;
         text-align: center;
         padding-bottom: 2%;
-        // margin: 1%;
+        padding-top: 2%;
         overflow: hidden;
         width: 60%;
 
