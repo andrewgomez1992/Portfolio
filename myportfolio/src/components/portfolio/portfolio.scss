@@ -22,7 +22,7 @@
             font-size: 30px;
             color: $mainColor;
             position: relative;
-            top: 2%;
+
         }
     }
 
@@ -67,7 +67,7 @@
         justify-content: center;
         flex-wrap: wrap;
         text-align: center;
-        overflow: hidden;
+        // overflow: hidden;
 
         @include mobile {
             width: 100%;
