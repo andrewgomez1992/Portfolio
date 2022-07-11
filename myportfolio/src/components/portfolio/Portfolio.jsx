@@ -69,7 +69,7 @@ export default function Portfolio() {
 
     return (
         <div className="portfolio" id="portfolio">
-            <h1>My Portfolio</h1>
+            <h1>Recent Projects</h1>
             <p>Some of my latest projects. Mostly showing off the front
                 end but I do have my backend page coming soon! I know they are not
                 finished but I promise I'm somewhere typing away working on it. Feel
