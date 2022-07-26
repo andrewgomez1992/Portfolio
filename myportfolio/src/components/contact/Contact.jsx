@@ -12,7 +12,7 @@ export default function Intro() {
             </div>
             <div className='aboutme'>
                 {/* <h1>A little more about myself...</h1> */}
-                <p>If you want to lift yourself up,<br /> lift up someone else.</p>
+                <p>I am a Full Stack Software Engineer who will be graduating from Bloom Institute of Technology in August 2022. I have spent hundreds of hours with JavaScript, React, HTML, CSS, API's, SQL and more which have thrusted me into a bright introduction of a world I once never knew existed.</p>
             </div>
         </div >
     )
