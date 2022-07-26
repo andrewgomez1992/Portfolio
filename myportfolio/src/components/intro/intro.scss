@@ -4,14 +4,17 @@
 .intro {
     background-color: rgb(37, 37, 37);
     display: flex;
-    color: #636363;
+    color: $socialColor;
 
     // Background Start
 
     // Background End
 
 
-
+    .socialmedia .fa {
+        color: $socialColor;
+        border: $socialColor
+    }
 
 
     .fa-github {
