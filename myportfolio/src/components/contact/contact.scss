@@ -29,7 +29,7 @@
         position: relative;
         font-size: 2rem;
         text-align: center;
-        font-family: 'Cedarville Cursive', cursive;
+        // font-family: 'Cedarville Cursive', cursive;
         display: flex;
         color: $mainColor;
         justify-content: center;
@@ -63,7 +63,7 @@
 
                 @include mobile {
                     width: 55%;
-                    height: 12.4rem;
+                    height: 13rem;
                     margin-top: 15%;
                     position: relative;
                     top: -15px;
