@@ -51,9 +51,10 @@ export default function Intro() {
         return () => clearTimeout(timeout2);
     }, [blink]);
 
+
     return (
         <div className="intro" id="intro">
-            <a className="theme" id="theme"><i class="uil uil-palette"></i></a>
+            {/* <a className="theme" id="theme"><i class="uil uil-palette"></i></a> */}
             <div className="left">
                 <div className="imgContainer">
                     <img src="assets/selfie.png" alt="" />

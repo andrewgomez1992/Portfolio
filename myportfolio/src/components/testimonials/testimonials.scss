@@ -121,7 +121,7 @@
             .center {
                 padding: 10px;
                 border-radius: 10px;
-                background-color: rgb(162, 179, 162);
+                background-color: $mainColor;
 
 
                 @include mobile {

@@ -32,7 +32,7 @@
 
         @keyframes anim-glow {
             0% {
-                box-shadow: 0 0 rgba(#e9e633, 1);
+                box-shadow: 0 0 rgba($mainColor, 1);
             }
 
             100% {
@@ -94,7 +94,7 @@
 
         @keyframes anim-glow {
             0% {
-                box-shadow: 0 0 rgba(#e9e633, 1);
+                box-shadow: 0 0 rgba($mainColor, 1);
             }
 
             100% {
@@ -221,6 +221,7 @@
             position: relative;
             top: 3.2%;
             overflow: visible;
+            cursor: pointer;
         }
 
     }
@@ -246,7 +247,7 @@
             justify-content: center;
             float: right;
             overflow: hidden;
-            filter: drop-shadow(0 0 8px #ffe600);
+            filter: drop-shadow(0 0 8px $mainColor);
             position: relative;
             left: -2%;
             top: 7%;
@@ -265,7 +266,7 @@
                 display: flex;
                 position: relative;
                 left: 5%;
-                filter: drop-shadow(0 0 8px #ffe600);
+                filter: drop-shadow(0 0 8px $mainColor);
 
                 @include mobile {
                     height: 90%;
@@ -300,7 +301,7 @@
             h1 {
                 font-size: 60px;
                 margin: 10px 0;
-                color: #e9e633;
+                color: $mainColor;
 
 
                 @include mobile {
