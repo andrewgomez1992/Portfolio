@@ -36,10 +36,12 @@
         margin-left: 10%;
         text-align: center;
         width: 80%;
+        overflow: hidden;
 
         @include mobile {
             font-size: 1.3rem;
             padding-right: 10%;
+            overflow: hidden;
         }
     }
 
@@ -48,6 +50,7 @@
             display: flex;
             justify-content: center;
             position: relative;
+            overflow: hidden;
 
             img {
                 width: 20%;
@@ -55,6 +58,7 @@
                 opacity: 70%;
                 border-radius: 50%;
                 border: 3px solid $mainColor;
+                overflow: hidden;
 
                 @include mobile {
                     width: 55%;
@@ -63,6 +67,7 @@
                     position: relative;
                     top: -15px;
                     filter: drop-shadow(0 0 8px $mainColor);
+                    overflow: hidden;
                 }
             }
         }
