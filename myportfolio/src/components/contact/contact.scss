@@ -62,6 +62,9 @@
 
                 @include mobile {
                     margin-top: 15%;
+                    position: relative;
+                    top: -15px;
+                    filter: drop-shadow(0 0 8px $mainColor);
                 }
             }
         }
