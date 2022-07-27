@@ -77,15 +77,18 @@
     .socialmedia .fa {
         color: $socialColor;
         border: $socialColor;
-        // display: flex;
         padding: 4%;
         overflow: hidden;
         margin: 5%;
         margin-right: 12%;
-        margin-bottom: 10%;
+        // margin-bottom: 50%;
         position: relative;
-        left: 4%;
+        left: 12%;
         top: 20px;
+
+        @include mobile {
+            left: 5%;
+        }
     }
 
 
@@ -97,9 +100,6 @@
         text-align: center;
         border-radius: 50%;
         color: rgb(86, 86, 86);
-        // position: relative;
-        // top: 4%;
-        // justify-self: start;
         background-color: $mainColor;
         cursor: pointer;
         box-shadow: $mainColor 0px 1px 4px, rgb(100, 100, 100) 0px 0px 0px 3px;
@@ -127,8 +127,6 @@
         text-align: center;
         border-radius: 50%;
         color: rgb(86, 86, 86);
-        // left: 10%;
-        // top: 4%;
         background-color: $mainColor;
         cursor: pointer;
         box-shadow: $mainColor 0px 1px 4px, rgb(51, 51, 51) 0px 0px 0px 3px;

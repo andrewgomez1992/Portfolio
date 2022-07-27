@@ -1,12 +1,12 @@
 import './topbar.scss'
 import React from 'react'
-import { Person, Mail } from '@mui/icons-material'
+import { Mail } from '@mui/icons-material'
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
     return (
         <div className={"topbar " + (menuOpen && "active")}>
             <div className="wrapper">
-                <div className="left">
+                <div className="left content">
                     <a href="#intro" className='logo'>big ideas.</a>
                     <div className="itemContainer">
 
